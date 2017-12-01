@@ -256,7 +256,7 @@ std::tstring CVFSManagerWnd::CCdrom0Device::GetBinding()
 		}
 		else
 		{
-			return m_imagePath.c_str();
+			return m_imagePath;
 		}
 	}
 	else if(m_bindingType == CCdromSelectionWnd::BINDING_PHYSICAL)
